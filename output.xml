@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3 (Python 3.13.3 on darwin)" generated="2025-06-13T15:52:49.182496" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3 (Python 3.13.3 on darwin)" generated="2025-06-13T16:05:44.257360" rpa="false" schemaversion="5">
 <suite id="s1" name="Test" source="/Users/ajax/Project/Learning/robotframework_project/test.robot">
 <test id="s1-t1" name="First Test" line="6">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-06-13T15:52:49.190427" level="INFO">Hello, Robot Framework!</msg>
+<msg time="2025-06-13T16:05:44.327975" level="INFO">Hello, Robot Framework!</msg>
 <arg>Hello, Robot Framework!</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-06-13T15:52:49.190381" elapsed="0.000067"/>
+<status status="PASS" start="2025-06-13T16:05:44.327908" elapsed="0.000092"/>
 </kw>
-<status status="PASS" start="2025-06-13T15:52:49.190147" elapsed="0.000364"/>
+<status status="PASS" start="2025-06-13T16:05:44.327534" elapsed="0.000541"/>
+</test>
+<test id="s1-t2" name="Second Test" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-13T16:05:44.328358" level="INFO">Opening browser 'chrome' to base url 'https://google.com/'.</msg>
+<arg>https://google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-13T16:05:44.328283" elapsed="8.335158"/>
+</kw>
+<status status="PASS" start="2025-06-13T16:05:44.328165" elapsed="8.335522"/>
 </test>
 <doc>A simple Robot Framework test case</doc>
-<status status="PASS" start="2025-06-13T15:52:49.183241" elapsed="0.007408"/>
+<status status="PASS" start="2025-06-13T16:05:44.257819" elapsed="8.406117"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Test" id="s1" pass="1" fail="0" skip="0">Test</stat>
+<stat name="Test" id="s1" pass="2" fail="0" skip="0">Test</stat>
 </suite>
 </statistics>
 <errors>
